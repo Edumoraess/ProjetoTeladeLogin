@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area De cadastro</title>
+    <link rel="stylesheet" href="projeto/css/cadastro.css">
+</head>
+
+<body>
+    <div class="main-login fundo-img">
+        <div class="left-login">
+            
+            <img src="projeto/img/cadastro.svg" class="left-login-img"
+                alt="menino sentado no computador, codificando, com um monitor do lado, duas imagens atras e uma planta ao lado">
+        </div>
+
+        <div class="right-login"></div>
+        <div class="area-login">
+            <h1>Preencha os campos abaixo↴</h1>
+            <form class="text-field">
+                <div class="text-field">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="usuario" id="nome" placeholder="Digite seu primeiro nome" required>
+                </div>
+
+                <div class="text-field">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" required>
+                </div>
+
+                <div class="text-field">
+                    <label for="email">Digite seu e-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Ex: digiteseuemail@gmail.com" required>
+                </div>
+
+                <div class="text-field">
+                    <label for="senha">senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="********" required>
+                </div>
+
+                <div class="text-field">
+                    <label for="idade">Idade</label>
+                    <input type="number" name="idade" id="idade" placeholder="Digite sua idade" required>
+                </div>
+                <div>
+                    <button class="btn-login" type="submit">Concluir Cadastro</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
